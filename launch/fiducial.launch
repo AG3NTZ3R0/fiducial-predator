@@ -1,0 +1,4 @@
+<launch>
+    <!-- <include file="$(find aruco_detect)/launch/aruco_detect.launch" /> -->
+    <node name="fiducial" pkg="fiducial_project" type="fiducial.py" output="screen" respawn="true"/>
+</launch>
